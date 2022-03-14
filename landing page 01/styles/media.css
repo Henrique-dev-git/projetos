@@ -1,0 +1,46 @@
+@media screen and (max-width: 1200px){
+  header{
+      flex-direction: column;
+  }
+  main{
+      flex-direction: column;
+
+  }
+  h2{
+      font-size: 38px;
+      text-align: center;
+  }
+  p{
+      text-align: center;
+  }
+  form{
+      margin: 0 auto;
+      width: 100%
+  }
+  input{
+      align-self: center;
+  }
+  img{
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    
+  }
+  ul{
+      text-align: center;
+  }      
+  textarea{
+      max-width: 70%;
+      align-self: center;
+  }
+  h3{
+      display: none;
+  }
+  .rodape{
+    text-align:end;
+    color: rgb(187, 168, 191);
+    text-align: center;
+}
+}

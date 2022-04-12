@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>foodBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2? family= Titillium+Web & display=swap" rel="stylesheet">
+  </head>
+  <body>   
+    <div class="topo">
+      <h1 class.h1>Food Box</h1>
+      <h2>Entregamos seu pedido em 15 minutos!</h2>
+    </div>
+    
+    <h3>Primeiro, seu prato!</h3>
+    
+    
+    <div id="frango" class="produto" onclick="selectFrango()">
+      <img
+        class="frango"
+        src="https://img.elo7.com.br/product/original/22565B3/adesivo-parede-prato-comida-frango-salada-restaurante-lindo-adesivo-parede.jpg"
+      />
+      <h4>Frango Yin-yang</h4>
+      <p>Um pouco de batata, um pouco de salada</p>
+      <p><strong>R$: 29,99</strong></p>
+    </div>
+
+    <div id="carne" class="produto" onclick="selectCarne()">
+      <img
+        id="carne"
+        class="carne"
+        src="https://images.aws.nestle.recipes/resized/9a4c5cdf7a9456562b46820bcccfecf2_SALADA_DE_ABOBORA_COM_CARNE_ASSADA_E_VINAGRETE_DE_VEGETAIS-receitas-nestle_1200_600.jpg"
+      />
+      <h4>Maminha com salada</h4>
+      <p>Carne macia com salada fresca</p>
+      <p><strong>R$: 49,99</strong></p>
+    </div>
+
+    <h3>Agora sua bebida!</h3>
+    <div id="coca" class="produto" onclick="selectCoca()">
+      <img
+        class="coca"
+        src="https://thumbs.dreamstime.com/b/latas-de-coca-cola-no-balde-com-gelo-esmagado-poznan-pol-sep-refrigerante-carbonizado-fabricado-pela-empresa-sede-em-atlanta-158141089.jpg"
+      />
+      <h4>Combo coca-cola</h4>
+      <p>2x Coca-cola em lata 350ml</p>
+      <p><strong>R$: 8,99</strong></p>
+    </div>
+
+    <div id="refresco" class="produto" onclick="selectRefresco()">
+      <img
+        class="refresco"
+        src="https://www.receitasdemae.com.br/wp-content/uploads/2010/01/Refrescos-1024x762.jpg"
+      />
+      <h4>Suco da fruta</h4>
+      <p>300 ml (limão, laranja, orango</p>
+      <p><strong>R$: 2,99</strong></p>
+    </div>
+
+    <h3>Agora sua sobremesa!</h3>
+    <div id="sorvete" class="produto" onclick="selectSorvete()">
+      <img
+        class="sorvete"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaoO4bgdrOf-ePV7AvjdJDdRvjX3pW4u1PRG6DMCzSH10e7se4thLEq1zI8NlujLSFNYI&usqp=CAU"
+      />
+      <h4>Sorvetes</h4>
+      <p>2x Bolas de sorvete</p>
+      <p><strong>R$: 8,99</strong></p>
+    </div>
+
+    <div id="pudim" class="produto" onclick="selectPudim()">
+      <img
+        class="pudim"
+        src="https://revistamenu.com.br/wp-content/uploads/2020/05/diadopudim-1050x580.jpg"
+      />
+      <h4>Pudim</h4>
+      <p><Pudim de Leite></p>
+      <p><strong>R$: 10,99</strong></p>
+    </div>
+    <section id="finalizarSection">
+    
+    <div id="finalizarPedido" onclick="finalizarPedido()">
+      <submit><strong>Finalizar pedido</strong></submit>
+    </div>
+
+    </section>
+
+  </body>
+</html>
